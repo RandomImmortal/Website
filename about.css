@@ -1,0 +1,83 @@
+@import "https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css";
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display|Poiret+One&display=swap");
+
+body {
+  background: #39d;
+}
+
+a#contact {
+  color: white;
+  display: block;
+  height: 40px;
+  line-height: 40px;
+  position: absolute;
+  text-align: center;
+  text-decoration: none;
+  width: 40px;
+}
+
+a#contact:hover {
+  color: #eef;
+}
+
+a#home {
+  color: white;
+  display: block;
+  height: 40px;
+  line-height: 40px;
+  position: absolute;
+  right: 10px;
+  text-align: center;
+  text-decoration: none;
+  width: 30px;
+}
+
+a#home:hover {
+  color: #eef;
+}
+
+div.about {
+  color: white;
+  font-family: "Poiret One", cursive;
+  left: 50%;
+  margin: 0 auto;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h1 {
+  font-size: 2em;
+  font-weight: 600;
+}
+
+img {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+}
+
+/* Author */
+
+footer.author {
+  bottom: 0;
+  color: white;
+  font-family: "Poiret One", cursive;
+  left: 50%;
+  margin: 0 auto;
+  padding-bottom: 2px;
+  position: fixed;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+footer.author a {
+  color: #348;
+  text-decoration: none;
+}
+
+footer.author a:hover {
+  color: #ddd;
+}
